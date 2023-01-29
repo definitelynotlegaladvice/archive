@@ -17,15 +17,13 @@ Either way, the public should know that your project is a recent and shallow for
 
 And if you choose not to reveal this, you're in deeper water than you realize:
 
-1. Let's get you up to speed. The owner of a *copyright* is the author who then has the ultimate final rights including the right to decide who can copy. The author can sell these rights to a new owner.  A *license* from the owner defines what it is people can do with a copy, it does not transfer ownership of the property.  An *open source license* (like Apache), allows adaptations to be made to the source and subsequent distribution of copies *under certain conditions*. Licenses are also revocable.<img width="586" alt="Screen Shot 2023-01-27 at 8 49 56 PM" src="https://user-images.githubusercontent.com/123840750/215296586-82630e0f-761a-4128-8c4b-a889cf936f94.png"><img width="586" alt="Screen Shot 2023-01-27 at 8 49 56 PM" src="https://user-images.githubusercontent.com/123840750/215296590-fbae2725-2558-471e-ab3c-f68855695d8c.png">
-
-
+1. Let's get you up to speed. The owner of a *copyright* is the author who then has the ultimate final rights including the right to decide who can copy. The author can sell these rights to a new owner.  A *license* from the owner defines what it is people can do with a copy, it does not transfer ownership of the property.  An *open source license* (like Apache), allows adaptations to be made to the source and subsequent distribution of copies *under certain conditions*. Licenses are also revocable.
 
 2. You clearly misunderstand or abuse the Apache license.  The changes Aptos have made to the original code are indeed Aptos' intellectual property.  But only limited to those incremental adaptations.  The original code's ownership has not changed.  So as a fact of law, I'm guessing 95% or more of the code in this repo is not your intellectual property. And you must tell people that.  In fact the Apache license (to the extent you still have one, more below) compels you to do just that. https://www.apache.org/licenses/LICENSE-2.0.html#redistribution
 
 3. You clearly misunderstand or abuse copyrights. All the files in `aptos-core` currently have copyright notices crediting Aptos, in 2022 no less!  Previously the files said "Diem Core Contributors" (which was likely problematic to begin with, since from my recollection that's not an entity). Meanwhile Facebook was the entity that hired, paid and submitted adaptations under the Apache license.  Which makes those contributions authored and owned by Facebook.  As such, the near-entirety of the intellectual property still belongs to them, provided they have not granted all the rights to Libra Association (possibly since the staff was seconded there), and/or subsequently to Silvergate.  God knows where it landed, compliance was pretty catastrophic during my time around the blast radius.
 
-4. Now I point you to the license agreement itself: https://github.com/aptos-labs/aptos-core/blob/main/LICENSE.  If it's not your property you cannot license it.  Full stop.  It's very straightforward: Facebook or Silvergate are the licensors.
+4. Now I point you to the license agreement itself: https://github.com/aptos-labs/aptos-core/blob/main/LICENSE.  If it's not your property you cannot license it.  Full stop.  It's very straightforward... Facebook or Silvergate are the licensors.
 
 5. There is no such thing as a worldwide irrevocable license.  Facebook or Silvergate own the copyright, and as a matter of law, can make and revoke licenses at will.  Revoking rarely happens in open source -- no one wants to be the bad guy.  But it has happened, usually when there have been violations to terms. Given the deception you've put Facebook and Silvergate through at the time of their deal, I think they are well within their right to pull the rug out from under you. And who would fault them?
 
@@ -35,7 +33,7 @@ And if you choose not to reveal this, you're in deeper water than you realize:
 
 <img width="570" alt="Screen Shot 2023-01-28 at 5 35 14 PM" src="https://user-images.githubusercontent.com/123840750/215296526-e1629235-1e29-4b9a-b126-9e45396507b3.png">
 
-8. It gets a lot worse. If anyone invested with knowledge of the above representations -- that you are the creators of this platform -- that's an easy Section 11 (civil strict liability), maybe Rule 10b (criminal), or even Section 18 (jail time) of the 1933/34 Securities Acts. You only need a single token holder to make that claim in court for you clowns to be completely fucked.
+8. It gets a lot worse. If anyone invested with knowledge of the above representations -- that you are the authors of this platform -- that's an easy Section 11 (civil strict liability), maybe Rule 10b (criminal), or even Section 18 (jail time) of the 1933/34 Securities Acts. You only need a single token holder to make that claim in court for you clowns to be completely fucked.
 
 
 
@@ -56,11 +54,11 @@ Given this pattern, "accident" is not going to be a viable defense. You stole pr
 
 So if you close this ticket, I'll just keep opening new ones until:
 1. Silvergate and Facebook confirm who are the owners
-1. They confirm the Apache license is available to you.
+1. The owner confirms the Apache license is available to you.
 1. Update your copyright notices.
 1. Update the Apache license to the rightful licensor
 1. Properly issue Apache notices of adaptations.
-1. Write a blog post detailing all the above,, and pay special notice to who paid for the bulk of the work (not your engineers, they did work for hire).
+1. Write a blog post detailing all the above, with a fat paragraph on who paid for the bulk of the work (not your engineers, they did work for hire).
 
 Before I sign off… some levity.  Savor it.
 
